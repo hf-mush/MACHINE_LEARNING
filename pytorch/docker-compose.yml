@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pytorch:
+    image: pytorch/pytorch:latest
+    tty: true
+    stdin_open: true
+    ipc: host
+    logging:
+      driver: 'json-file'
+      options:
+        max-size: '10m'
+        max-file: '10'
+    container_name: 'pytorch'
+    hostname: 'pytorch'

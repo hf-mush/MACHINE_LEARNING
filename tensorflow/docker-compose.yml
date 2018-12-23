@@ -1,0 +1,10 @@
+version: '3'
+services:
+  tensorflow:
+    image: tensorflow/tensorflow:latest
+    ports:
+      - '8888:8888'
+    volumes:
+      - './src:/tmp'
+    container_name: 'tensorflow'
+    hostname: 'tensorflow'
