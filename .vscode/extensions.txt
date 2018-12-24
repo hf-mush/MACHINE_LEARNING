@@ -1,0 +1,5 @@
+EditorConfig.EditorConfig
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.python
+PeterJausovec.vscode-docker
+redhat.vscode-yaml

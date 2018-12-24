@@ -1,11 +1,9 @@
+"""Output image analysis result."""
 import tensorflow as tf
-# print text
-hello = tf.constant('Hello, Tensorflow')
-sess = tf.Session()
-print(sess.run(hello))
+SESS = tf.Session()
 # print culclate number
-a = tf.constant(10)
-b = tf.constant(50)
-print(sess.run(a+b))
+A = tf.constant(10)
+B = tf.constant(50)
+print(SESS.run(A+B))
 # exit
 exit()
